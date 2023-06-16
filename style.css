@@ -1,5 +1,13 @@
-.king {  
-    width: 200px;
-    height: 200px;
-    border: 4px dashed rgb(0, 0, 160);
+.container {
+  display: flex;
+}
+.king {
+  width: 200px;
+  height: 200px;
+  border: 4px dashed rgb(0, 0, 160);
+  border-radius: 50%;
+}
+
+.name {
+  margin-top: auto;
 }
