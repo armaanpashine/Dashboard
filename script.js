@@ -5,7 +5,11 @@ let txt = document.querySelector(".status");
 let close = 0;
 
 document.addEventListener("mousemove", (e) => {
-    console.log(e);
+    if (close === 100)  {
+        window.location.href = "http://localhost:5500/profile.html";
+
+    } 
+ 
     w = e.x / 2;
     h = e.y / 2;
     bw = e.x / 90;
@@ -16,3 +20,5 @@ document.addEventListener("mousemove", (e) => {
     txt.innerText =
         "You are " + close.toFixed(2) + "% close to making a perfect circle";
 });
+
+
