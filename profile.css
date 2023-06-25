@@ -43,3 +43,8 @@ button {
   transform: translateY(-20px);
   transition: all 500ms ease-in-out;
 }
+.time {
+  margin-left: 492px;
+  margin-top: 209px;
+  font-size: 80px;
+}
