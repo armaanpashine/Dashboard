@@ -8,7 +8,7 @@ function show_btn() {
   btn.style.opacity = 1;
   btn.style.transform = "translateY(0px)";
 }
-let mySound = new Audio("mjolnir.mp3");
+let mySound = new Audio("Monday.mp3");
 lol.addEventListener("click", play_sound);
 function play_sound() {
   mySound.play();

@@ -17,5 +17,7 @@ document.addEventListener("mousemove", (e) => {
 
   close = Math.abs(1 - e.x / e.y) * -100 + 100;
   txt.innerText =
-    "You are " + close.toFixed(2) + "% close to making a perfect circle";
+    "You are " +
+    close.toFixed(2) +
+    "% close to making a perfect circle to save this innocent cat. ";
 });
